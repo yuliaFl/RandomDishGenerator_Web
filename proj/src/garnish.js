@@ -1,13 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Meat = () => {
+const Garnish = () => {
   const navigate = useNavigate();
   return (
-    <div id="Meat" className="meat">
-      <h1>Generate meat</h1>
+    <div id="Garnish" className="garnish">
+      <h1>Generate garnish</h1>
     </div>
   );
 };
 
-export default Meat;
+export default Garnish;
