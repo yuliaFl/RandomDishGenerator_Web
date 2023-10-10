@@ -6,14 +6,14 @@ const Home = () => {
   return (
     <div id="Home" className="homepage">
       <h1>This is a random meal generator website</h1>
-      <button
+      <button className="button"
         onClick={() => {
           navigate("/generate");
         }}
       >
         Generate
       </button>
-      <button
+      <button className="button"
         onClick={() => {
           navigate("/add");
         }}

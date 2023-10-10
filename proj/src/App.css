@@ -1,20 +1,9 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #ddbea9;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +13,127 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #cb997e;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  z-index: 100; /* This property ensures the navbar stays on top of other content */
+}
+.nav-links {
+  list-style: none;
+  display: flex; /* Center links horizontally */
+  justify-content: center; /* Center links horizontally */
+  gap: 16px;
+  margin: 0;
+  padding: 0 50px 0 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links li {
+  padding: 8px;
+}
+
+.nav-links li a {
+  color: #6b705c;
+  text-decoration: none;
+}
+
+/* Adding some spacing to the main content so it's not hidden behind the navbar */
+main {
+  margin-top: 25px; /* Adjust this value based on your navbar height */
+}
+
+.homepage{
+  padding-top: 250px;
+  padding-bottom: 500px;
+  justifyContent: 'center';
+  alignItems: 'center';
+  height: '80vh';
+  font-family: Arial, Helvetica, sans-serif ;
+  color: #B85042;
+}
+
+.generatepage{
+  padding-top: 250px;
+  padding-bottom: 500px;
+  justifyContent: 'center';
+  alignItems: 'center';
+  height: '80vh';
+  font-family: Arial, Helvetica, sans-serif ;
+  color: #B85042;
+}
+
+.garnishpage{
+  padding-top: 250px;
+  padding-bottom: 500px;
+  justifyContent: 'center';
+  alignItems: 'center';
+  height: '80vh';
+  font-family: Arial, Helvetica, sans-serif ;
+  color: #B85042;
+}
+
+.meatpage{
+  padding-top: 250px;
+  padding-bottom: 500px;
+  justifyContent: 'center';
+  alignItems: 'center';
+  height: '80vh';
+  font-family: Arial, Helvetica, sans-serif ;
+  color: #B85042;
+}
+
+.dishespage{
+  padding-top: 250px;
+  padding-bottom: 500px;
+  justifyContent: 'center';
+  alignItems: 'center';
+  height: '80vh';
+  font-family: Arial, Helvetica, sans-serif ;
+  color: #B85042;
+}
+
+.addpage{
+  padding-top: 250px;
+  padding-bottom: 350px;
+  justifyContent: 'center';
+  alignItems: 'center';
+  height: '80vh';
+  font-family: Arial, Helvetica, sans-serif ;
+  color: #B85042;
+}
+
+.button {
+  background-color: #a5a58d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none; 
+  margin: 10px; 
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+.custom-input {
+  height: 20px;
+  margin: 12px;
+  padding: 10px;
+  width: 80%;
+  border-width: 1px;
+  border-radius: 20px;
+}
+/* Add.css */
+.radio-label {
+  font-size: 20px; /* Increase the font size of the labels */
+  margin-top: 20px; /* Add more margin at the top of the label */
+  margin-bottom: 50px; /* Add more margin at the bottom of the label */
+}
+
+.radio-label input[type="radio"] {
+  width: 20px; /* Increase the width of the radio buttons */
+  height: 20px; /* Increase the height of the radio buttons */
+  margin-right: 8px; /* Add some spacing between the radio button and label */
 }

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Garnish = () => {
   const navigate = useNavigate();
   return (
-    <div id="Garnish" className="garnish">
+    <div id="Garnish" className="garnishpage">
       <h1>Generate garnish</h1>
     </div>
   );
